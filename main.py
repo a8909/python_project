@@ -100,13 +100,20 @@ print(my_tuple[-1])
 print(my_tuple[1:])
 print(my_tuple[:-2])
 
-# for elem in my_tuple:
-#     print(elem)
+for elem in my_tuple:
+    print(elem)
+print(10 in my_tuple)  # in is accepted in tuple and it act as a  bool, same as not in 
+var  = 23
+t1 = (1,)
+t2 = (2,)
+t3 = (3,var)
+t1,t2,t3 = t3,t2,t1
+print(t1,t2,t3)
 
 User = []
 Humans = {'Name': 'jemmah',
           'Store': 'rellish', 
-          'Booka': 'street'
+          'street': 'Booka'
           }
 for items in Humans:
     User.append(items)
@@ -114,6 +121,7 @@ for items in Humans:
 print(User)
 print(Humans['Name'])
 for User in Humans:
+    print(User)
     if User in Humans:
      print(User,'=>', Humans[User])
     else:
@@ -125,7 +133,7 @@ for pairs, pair in Humans.items():
     print(pairs, '=>', pair) 
 for key in sorted(Humans.keys()):
     print(key, '=>', Humans[key])
-for value in Humans.values():
+for value in Humans.values(): # THE value() is used to get value pair in key
     print(value)
 Humans['opay']='Bank'
 print(Humans)
@@ -133,8 +141,24 @@ del Humans['opay']
 print(Humans)
 Humans.update({'opay':'Bank'})
 print(Humans)
+# popitem() is used to remove a random item  from a dictionary and also used to del last item on a dictionary
+# studentNames = {}
+# while True:
+#     studentName = input('Enter your name: ')
+#     if studentName=='':
+#         break
+#     studentScore = int(input('Enter your score (0 - 10): '))
+#     if studentScore not in range(0,11):
+#         break
+   
+#     if studentName in studentNames:
+#         studentNames[studentName] += (studentScore,)
+#     else:
+#         studentNames[studentName]= (studentScore,)
 
-
+    
+        
+        
 stu_class = {}
 while True:
     name = input("Enter your name: ")
@@ -154,6 +178,15 @@ for name in sorted(stu_class.keys()):
         adding += score
         counter += 1
         print(name, ':', adding/counter)
+        
+        
+        
+        
+        
+        
+segun = {'name':'taiwo', 'age': 18}  
+blade = []
+      
     
 
     

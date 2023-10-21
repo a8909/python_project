@@ -67,3 +67,4 @@ height = blocks/2
 # Write your code here.
 if blocks != height:
     print("The height of the pyramid:", height)
+
