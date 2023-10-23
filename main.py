@@ -184,11 +184,11 @@ for name in sorted(stu_class.keys()):
         
         
         
-        
+blade = []       
 segun = {'name':'taiwo', 'age': 18}  
 for items in segun:
     blade.append[items]
-blade = []
+
       
     
 

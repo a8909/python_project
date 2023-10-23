@@ -59,14 +59,14 @@ for i in range(len(test_data)):
 # print('The average is', Average)
 
 
-# def common_data(list1, list2):
+def common_data(list1, list2):
     
-#     for x in list1:
-#         for y in list2:
-#             if x == y:
-#                 result = True
-#                 return result
-# common_data(3,4)
-# print(common_data([1,2,3,4,5], [1,2,3,4,5]))
-# print(common_data([1,2,3,4,5], [1,7,8,9,510]))
-# print(common_data([1,2,3,4,5], [6,7,8,9,10]))
+    for x in list1:
+        for y in list2:
+            if x == y:
+                result = True
+                return result
+common_data(3,4)
+print(common_data([1,2,3,4,5], [1,2,3,4,5]))
+print(common_data([1,2,3,4,5], [1,7,8,9,510]))
+print(common_data([1,2,3,4,5], [6,7,8,9,10]))
