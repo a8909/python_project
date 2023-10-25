@@ -35,8 +35,52 @@ print(red)
 print(message)
 # list
 
-Reddoor = ['ayobami', 'vivian', 'modupe', 'bolu', 'abigeal']
 
+
+
+# boolean value true or false 
+
+ade = 18
+if ade == 20:
+    print('Ade is a teenager')
+else:
+    print('Ade is a boy ')
+    is_adult = True
+    if is_adult == True:
+        print('false')
+    else:
+        
+        print('true')
+
+
+Reddoor = ['ayobami', 'vivian', 'modupe', 'bolu', 'abigeal',]
+Reddoor.insert(0, 'tolu')
+Reddoor.sort()
+print(Reddoor)
+   
+for name in Reddoor:
+    print(name)
+    
+    # name.insert(0,'tolu')
+    # print(name)
+    
+# for i in range(1,10):
+#     print(i, 'Cup cake')
+    
+# while True:
+#     print('vivian')
+
+# while True:
+#     magician_number = 77
+#     selcted_no = int(input("Enter your number: "))
+#     if magician_number==selcted_no:
+#         break
+    
+        
+    
+    
+    
+    
 
 
     
