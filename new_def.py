@@ -51,22 +51,80 @@ for i in range(len(test_data)):
         print("Failed")
 
   
+try: 
+    a = [55,64,75,80,65]
+    average = []
+    for elem in a:
+        
+        average.append[elem]
+        print(average)
+        
+except:print('The average is')
+def f(x):
+    if x ==0 :
+        return 0
+    return x + f(x-1)
+print(f(3))
+def fun(x):
+    global y
+    y = x * x
+    return y
+ 
+ 
+fun(2)
+print(y)
+def any():
+    print(var + 1, end='')
+ 
+ 
+var = 1
+any()
+print(var)
+dictionary = {'one': 'two', 'three': 'one', 'two': 'three'}
+v = dictionary['one']
+ 
+for k in range(len(dictionary)):
+    v = dictionary[v]
+ 
+print(v)
+tup = (1, 2, 4, 8)
+tup = tup[1:-1]
+tup = tup[0]
+print(tup)
+lst = [[x for x in range(3)] for y in range(3)]
+ 
+for r in range(3):
+    for c in range(3):
+        if lst[r][c] % 2 != 0:
+            print("#")
+try:
+    value = input("Enter a value: ")
+    print(int(value)/len(value))
+except ValueError:
+    print("Bad input...")
+except ZeroDivisionError:
+    print("Very bad input...")
+except TypeError:
+    print("Very very bad input...")
+except:
+    print("Booo!")
+foo = (1, 2, 3)
+foo.index(0)
     
 
-# a = [55,64,75,80,65]
-# Average = Average_marks(a)
-
-# print('The average is', Average)
 
 
-def common_data(list1, list2):
+
+
+
+# def common_data(list1, list2):
     
-    for x in list1:
-        for y in list2:
-            if x == y:
-                result = True
-                return result
-common_data(3,4)
-print(common_data([1,2,3,4,5], [1,2,3,4,5]))
-print(common_data([1,2,3,4,5], [1,7,8,9,510]))
-print(common_data([1,2,3,4,5], [6,7,8,9,10]))
+#     for x in list1:
+#         for y in list2:
+#             if x == y:
+#                 result = True
+#                 return result
+# common_data(3,4)
+# print(common_data([1,2,3,4,5], [1,2,3,4,5]))
+# print(common_data([1,2,3,4,5], [1,7,8,9,510]))
+# print(common_data([1,2,3,4,5], [6,7,8,9,10]))
