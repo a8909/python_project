@@ -118,8 +118,7 @@ for x in dct.keys():
 # z = 0
 # y = 10
 # x = y < z and z > y or y < z and z < y
-foo = (1, 2, 3)
-foo.index(0)
+
  
 
 
