@@ -9,7 +9,7 @@ x =1
 while x<11:
     if x % 2 ==1:
         print(x)
-    x += 1
+        x += 1
     
 # Break statement
 for letter in "john.smith@pythoninstitute.org":

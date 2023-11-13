@@ -56,25 +56,26 @@ else:
 Reddoor = ['ayobami', 'vivian', 'modupe', 'bolu', 'abigeal',]
 Reddoor.insert(0, 'tolu')
 Reddoor.sort()
+# Reddoor.append['segun']
 print(Reddoor)
    
 for name in Reddoor:
     print(name)
     
-    # name.insert(0,'tolu')
-    # print(name)
+    name.insert(0,'tolu')
+    print(name)
     
-# for i in range(1,10):
-#     print(i, 'Cup cake')
+for i in range(1,10):
+    print(i, 'Cup cake')
     
-# while True:
-#     print('vivian')
+while True:
+    print('vivian')
 
-# while True:
-#     magician_number = 77
-#     selcted_no = int(input("Enter your number: "))
-#     if magician_number==selcted_no:
-#         break
+while True:
+    magician_number = 77
+    selcted_no = int(input("Enter your number: "))
+    if magician_number==selcted_no:
+        break
     
         
     
