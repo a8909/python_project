@@ -10,7 +10,7 @@
 <body>
     <div class =  'title'>
         <h1>Welcome to our QRcode Generator 🔥</h1>
-        <h2> Insert a link to generate a QR Code</h2>
+        <h2><i> Insert a link to generate a QR Code</i></h2>
         
 
   
@@ -20,9 +20,20 @@
     <button type = 'submit'>Generate QR</button>
    </form>
   <div class =" generated">
-    <img src = {{data}} alt = ""/>
+    <img src = {{data}} alt = "This is a QRcode image that will be generated"/>
     <p> Here is the QR code we generated for you🚀 </p>
   </div>
+  <div class = "bolu"> <p> This is a paragraph</p>
+<p><b > visit: 
+</b>
+</p> <p> <a  href = "https://wa.me/c/2349090397455"  target = "_blank"> lunchaeXchange to make payment for your signal </a>  </p>
+<img scr = "https://www.w3schools.com/html/workspace.jpg" alt = "workplace image" usemap = "#workmap">
+<map usemap="workmap">
+    <area shape = rect coord = 33,44,270,350 alt = "computer" href = "computer.htm">
+
+</map>
+</div>
+
 </body>
 
 </html>
@@ -38,6 +49,7 @@
         margin: 0rem 10rem;
         align-items: center;
         font-family: 'poppins', sans-serif;
+        background-color: powderblue
     }
     .title {
         padding: 6rem;
@@ -71,13 +83,29 @@
         font-size: 1rem;
         padding: 1rem 1.5rem;
         cursor: pointer;
-        boder-radius: 1rem;
+        boder-radius: 1.5rem;
     }
     .generated{
         align-items: center;
         justify-content: center;
         display: flex;
         flex-direction:column;
-
     }
+    .bolu{
+        boder: 2px solid red;
+        padding: 30px;
+        cursor: pointer;
+        color:blue;
+        align-items: center
+        justify-content: center;
+        color: black;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    a:hover{
+        color: red;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
      </style>
